@@ -1,0 +1,37 @@
+<div fxLayout="row" fxLayoutAlign="center">
+    <div fxLayout="column" fxFlex="1000px">
+        <form id='usuarioForm' [formGroup]="camposForm" (ngSubmit)="salvar()" lass="mt-60">
+
+            <mat-card appearance="outlined">
+                <mat-card-content>Cadastro de Usuário</mat-card-content>
+                <p>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Nome</mat-label>
+                        <input matInput placeholder="Digite o nome completo" required="true" formControlName="nome">
+                        @if (nomeFormControl.hasError('nome') && !nomeFormControl.hasError('required')) {
+                        <mat-error>Por favor entre com nome válido</mat-error>
+                        }
+                        @if (emailFormControl.hasError('required')) {
+                        <mat-error>Nome é <strong>requerido</strong></mat-error>
+                        }
+                    </mat-form-field>
+                </p>
+
+                <p>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Email</mat-label>
+                        <input type="email" matInput placeholder="Ex. pat@example.com" formControlName="email">
+                        @if (emailFormControl.hasError('email') && !emailFormControl.hasError('required')) {
+                        <mat-error>Por favor entre com email válido</mat-error>
+                        }
+                        @if (emailFormControl.hasError('required')) {
+                        <mat-error>Email é <strong>requerido</strong></mat-error>
+                        }
+                    </mat-form-field>
+                </p>
+                <button mat-flat-button>Salvar</button>
+            </mat-card>
+
+        </form>
+    </div>
+</div>

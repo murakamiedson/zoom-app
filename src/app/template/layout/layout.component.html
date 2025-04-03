@@ -1,0 +1,27 @@
+<header>
+
+    <mat-card appearance="outlined">
+        <mat-card-content>Zoom App</mat-card-content>
+    </mat-card>
+    <button mat-button [matMenuTriggerFor]="aboveMenu">Cadastros</button>
+    <mat-menu #aboveMenu="matMenu" yPosition="above">
+        <button mat-menu-item routerLink="usuarios">Usuarios</button>
+        <button mat-menu-item>Unidades</button>
+    </mat-menu>
+
+    <button mat-button [matMenuTriggerFor]="belowMenu">Acolhida</button>
+    <mat-menu #belowMenu="matMenu" yPosition="below">
+        <button mat-menu-item>Agendamento</button>
+        <button mat-menu-item>Prontuario</button>
+    </mat-menu>
+
+    <button mat-button routerLink="/paginas">Sair</button>
+    <br>
+
+</header>
+
+<router-outlet></router-outlet>
+
+<footer>
+    <p>2025 Zoom App. Todos os direitos reservados.</p>
+</footer>
