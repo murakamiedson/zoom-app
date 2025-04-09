@@ -1,0 +1,27 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Murakami",
+      "email": "murakami.edson@gmail.com",
+      "senha": "123456",
+      "status": "ATIVO",
+      "registroProfissional": "Professor"
+    },
+    {
+      "id": "01a2",
+      "nome": "mura",
+      "email": "murakami.edson@gmail.com"
+    },
+    {
+      "id": "fc5e",
+      "nome": "mura2",
+      "email": "murakami.edson@gmail.com"
+    },
+    {
+      "id": "d315",
+      "nome": "mura3",
+      "email": "murakami.edson@gmail.com"
+    }
+  ]
+}

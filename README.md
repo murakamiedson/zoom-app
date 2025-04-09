@@ -1,6 +1,6 @@
 # ZoomApp
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
 
 ## Development server
 
@@ -14,9 +14,10 @@ Once the server is running, open your browser and navigate to `http://localhost:
 
 ## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Angular CLI includes powerful code scaffolding tools. To generate a new component and module, run:
 
 ```bash
+ng generate module module-name
 ng generate component component-name
 ```
 
