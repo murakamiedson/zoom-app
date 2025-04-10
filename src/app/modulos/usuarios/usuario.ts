@@ -3,6 +3,6 @@ export class Usuario {
     nome? : string;
     email? : string;
     senha? : string;
-    status? : boolean;
+    status? : string;
     registroProfissional? : string;
 }
