@@ -27,6 +27,9 @@ Instalar Material:
 	ng add @angular/material@19.2.7
 Instalar server-json:
 
+Instalar angular-oauth
+	npm install --save angular-oauth2-oidc@19.2.6
+
 	
 ----------------------------------------------------------------------------
 Criar modulos,componentes, classes e services
@@ -35,6 +38,11 @@ ng g module <modulo> --routing
 ng g component <componente>
 ng g class <classe>
 ng g s <service>
+
+https://www.iconfinder.com/icons/2993685/brand_brands_google_logo_logos_icon
+
+1871100963-j2cev9pjr077bo2adp14jqqhma7inkt7.apps.googleusercontent.com
+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
 
 
 	
