@@ -10,6 +10,12 @@ To start a local development server, run:
 ng serve
 ```
 
+To start a local development json-server (API for tests), run:
+
+```bash
+ng server
+```
+
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
 ## Code scaffolding
@@ -17,7 +23,11 @@ Once the server is running, open your browser and navigate to `http://localhost:
 Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
 ```bash
-ng generate component component-name
+ng generate module module-name (use cases)
+ng generate component component-name (pages)
+ng generate service service-name
+ng generate class class-name
+...
 ```
 
 For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
