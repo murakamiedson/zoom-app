@@ -9,23 +9,16 @@
       "registroProfissional": "Professor"
     },
     {
-      "id": "01a2",
-      "nome": "mura",
-      "email": "murakami.edson@gmail.com"
-    },
-    {
-      "id": "fc5e",
-      "nome": "mura2",
-      "email": "murakami.edson@gmail.com"
-    },
-    {
-      "id": "d315",
-      "nome": "mura3",
-      "email": "murakami.edson@gmail.com"
-    },
-    {
       "id": "d43c",
       "nome": "11",
+      "email": "murakami@ifsp.edu.br",
+      "senha": "anaflavia01",
+      "status": "",
+      "registroProfissional": ""
+    },
+    {
+      "id": "b9c4",
+      "nome": "teste",
       "email": "murakami@ifsp.edu.br",
       "senha": "anaflavia01",
       "status": "",

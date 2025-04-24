@@ -3,7 +3,7 @@
         <h1> Bem vindo ao ZoomApp!</h1>
         <p>Projeto em parceria com o IFSP</p>
 
-        <button (click)="navegar();" *ngIf="isLoggedIn()">
+        <button (click)="navegar();" *ngIf="!isLoggedIn()">
             Olá {{ profile?.name }}, clique aqui para entrar
         </button>
 

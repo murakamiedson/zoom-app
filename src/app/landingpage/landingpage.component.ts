@@ -10,11 +10,12 @@ import { AuthgoogleService } from '../authgoogle.service';
   styleUrl: './landingpage.component.scss'
 })
 export class LandingpageComponent {
-/*
-  para teste do login sem google
-  profile: Profile | undefined = {nome: 'Murakami', email: 'mura@gmail.com'};
-*/
-  profile: Profile | undefined;
+
+ // para teste do login SEM google
+  profile: Profile | undefined = {name: 'Murakami', email: 'mura@gmail.com'};
+
+  // para teste do login COM google
+  //profile: Profile | undefined;
 
   constructor(
     private router: Router,

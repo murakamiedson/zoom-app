@@ -12,7 +12,9 @@ export class AuthgoogleService {
   private router: Router = inject(Router);
   profile = signal<any>(null)
   
-  constructor() { }
+  constructor() { 
+    this.initConfiguration();
+  }
 
   initConfiguration(){
     this.oauthService.configure(auth);
