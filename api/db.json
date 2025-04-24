@@ -1,0 +1,28 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Murakami",
+      "email": "murakami.edson@gmail.com",
+      "senha": "123456",
+      "status": "ATIVO",
+      "registroProfissional": "Professor"
+    },
+    {
+      "id": "d43c",
+      "nome": "11",
+      "email": "murakami@ifsp.edu.br",
+      "senha": "anaflavia01",
+      "status": "",
+      "registroProfissional": ""
+    },
+    {
+      "id": "b9c4",
+      "nome": "teste",
+      "email": "murakami@ifsp.edu.br",
+      "senha": "anaflavia01",
+      "status": "",
+      "registroProfissional": ""
+    }
+  ]
+}

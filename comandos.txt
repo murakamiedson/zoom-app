@@ -1,0 +1,45 @@
+src/
+├── app/
+│   ├── components/
+│   │   ├── header/
+│   │   ├── footer/
+│   │   ├── sidebar/
+│   │   └── main-content/
+│   ├── pages/
+│   │   ├── home/
+│   │   ├── about/
+│   │   └── contact/
+│   ├── services/
+│   ├── models/
+│   ├── shared/
+│   └── app.module.ts
+├── assets/
+├── styles/
+│   ├── _variables.sass
+│   ├── _mixins.sass
+│   └── main.sass
+└── index.html
+
+--------------------------------------------------------------------------
+Criar projeto modular: 
+	ng new projeto-app --no-standalone
+Instalar Material:
+	ng add @angular/material@19.2.7
+Instalar server-json:
+	npm install --save-dev json-server
+	para executar = npm run server
+	para ver o banco da api = http://localhost:3000/
+Instalar angular-oauth
+	npm install --save angular-oauth2-oidc@19.0.0
+
+	
+----------------------------------------------------------------------------
+Criar modulos,componentes, classes e services
+
+ng g module <modulo> --routing
+ng g component <componente>
+ng g class <classe>
+ng g s <service>
+
+	
+	

@@ -1,0 +1,15 @@
+<div fxLayout="row" fxLayoutAlign="center">
+    <div fxLayout="column" fxFlex="1000px">
+        <h1> Bem vindo ao ZoomApp!</h1>
+        <p>Projeto em parceria com o IFSP</p>
+
+        <button (click)="navegar();" *ngIf="!isLoggedIn()">
+            Olá {{ profile?.name }}, clique aqui para entrar
+        </button>
+
+        <button (click)="loginGoogle();" *ngIf="!isLoggedIn()">
+            <img width="50px" src="./images/logo_google_horiz.png"/>
+            Entrar com o Google
+        </button>
+    </div>
+</div>
